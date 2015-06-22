@@ -1,0 +1,37 @@
+{
+	"tags":
+	{
+		"allowUnknownTags" : true
+	},
+	"plugins":[
+		 "plugins/markdown"
+		,"/Users/moredhel/Documents/work/oodlejs/node_modules/tsdoc/template/plugins/TSDoc.js"
+	],
+	"opts":
+	{
+		"template"	:"/Users/moredhel/Documents/work/oodlejs/node_modules/tsdoc/template",
+		"recurse"	:"true"
+	},
+	"templates" : {
+		"cleverLinks"     : false,
+		"monospaceLinks"  : false
+	},
+	"source":
+	{
+		"includePattern": "(\\.d)?\\.ts$"
+	},
+	"markdown"  : {
+		"parser"   : "gfm",
+		"hardwrap" : true
+	},
+	"tsdoc":{
+		"source"		:"/Users/moredhel/Documents/work/oodlejs/ts/",
+		"destination"	:"/Users/moredhel/Documents/work/oodlejs/docs",
+		"tutorials"		:"",
+		"systemName"	: "oodlejs",
+		"footer"		: "",
+		"copyright"		: "oodlejs Copyright © 2015 moredhel.",
+		"outputSourceFiles" : true,
+		"commentsOnly": true
+	}
+}
