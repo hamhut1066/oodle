@@ -4,4 +4,5 @@ test/build
 .svn
 node_modules/
 toolbox/
-.vagrantfile
+.vagrant
+.tern-files
