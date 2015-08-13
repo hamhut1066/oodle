@@ -10,8 +10,9 @@
     "chai": "^2.3.0",
     "chai-as-promised": "^5.0.0",
     "mocha": "^2.2.5",
-    "typedoc": "https://github.com/hamhut1066/typedoc.git",
-    "uglify-js": "^2.4.23"
+    "typedoc": "git://github.com/sebastian-lenz/typedoc.git",
+    "uglify-js": "^2.4.23",
+    "tsc": "~1.20150623.0"
   },
   "devDependencies": {
     "gulp": "^3.9.0"
