@@ -28,7 +28,7 @@ angular.module('fma2eng').service('calcService', function() {
           inclusive: false,
           val: 0
         }},
-      name: "The mass of the bullet that will penetrate your skull"
+      name: "The Mass of the thing."
     }),
 
     A: new oodle.EngQ(3, "m/s^2")
